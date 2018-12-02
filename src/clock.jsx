@@ -25,17 +25,19 @@ class Clock extends React.Component {
 
     render () {
         return (
-            <section className='clock'>
+            <div className='parent'>
                 <h1>Clock</h1>
-                <span className='time'>
-                    <h1>Time: </h1>
-                    <h1>{this.state.time.toLocaleTimeString()}</h1>
-                </span>    
-                <span className='date'>
-                    <h1>Date: </h1>
-                    <h1>{this.state.time.toDateString()}</h1>
-                </span>    
-            </section>
+                <section className='clock'>
+                    <span className='time'>
+                        <h1>Time: </h1>
+                        <h1>{this.state.time.toLocaleTimeString()}</h1>
+                    </span>    
+                    <span className='date'>
+                        <h1>Date: </h1>
+                        <h1>{this.state.time.toDateString()}</h1>
+                    </span>    
+                </section>
+            </div>
         );
     }
 }

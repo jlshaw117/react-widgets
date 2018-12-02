@@ -1,0 +1,49 @@
+.main {
+    display: flex;
+   justify-content: space-around;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    background-color: orange;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+div h1 {
+    text-align: center;
+}
+
+span h1 {
+    margin: 0;
+    color: white;
+}
+
+.time, .date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    order: 1;
+}
+
+.date {
+    order: 0;
+}
+

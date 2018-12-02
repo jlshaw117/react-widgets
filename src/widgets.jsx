@@ -5,7 +5,7 @@ import Clock from './clock';
 
 function App () {
     return (
-        <div>
+        <div className='main'>
             <Clock />
         </div>
     );
