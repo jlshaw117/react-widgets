@@ -1,5 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Clock from './clock';
+
+
+function App () {
+    return (
+        <div>
+            <Clock />
+        </div>
+    );
+}
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -12,11 +22,3 @@ document.addEventListener('DOMContentLoaded', () => {
         root
     );
 })
-
-function App () {
-    return (
-        <div>
-
-        </div>
-    );
-}
