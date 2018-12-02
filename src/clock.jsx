@@ -25,7 +25,7 @@ class Clock extends React.Component {
 
     render () {
         return (
-            <div className='parent'>
+            <div className='clock-parent'>
                 <h1>Clock</h1>
                 <section className='clock'>
                     <span className='time'>
