@@ -2,4 +2,4 @@ node_modules
 bundle.js
 bundle.js.map
 keys
-keys/js
+keys/keys.js
